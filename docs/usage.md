@@ -24,7 +24,7 @@ class ExampleModel extends Model
 Then we have to use `MultipleInput` widget for rendering form field in the view file
 
 ```php
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use unclead\multipleinput\MultipleInput;
 use unclead\multipleinput\examples\models\ExampleModel;
 use yii\helpers\Html;
@@ -116,7 +116,7 @@ class ExampleModel extends Model
 Then we have to use `MultipleInput` widget for rendering form field in the view file
 
 ```php
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use unclead\multipleinput\MultipleInput;
 use unclead\multipleinput\examples\models\ExampleModel;
 use yii\helpers\Html;
@@ -324,7 +324,7 @@ Since version **2.18.0** you can configure `columnOptions` also.
 ```php
 <?php
 
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use unclead\multipleinput\TabularInput;
 use yii\helpers\Html;
 use \unclead\multipleinput\examples\models\Item;
@@ -333,7 +333,7 @@ use \unclead\multipleinput\examples\models\Item;
 /* @var $models Item[] */
 ?>
 
-<?php $form = \yii\bootstrap\ActiveForm::begin([
+<?php $form = \yii\bootstrap5\ActiveForm::begin([
     'id'                        => 'tabular-form',
     'enableAjaxValidation'      => true,
     'enableClientValidation'    => false,

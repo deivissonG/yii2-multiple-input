@@ -4,7 +4,7 @@ namespace unclead\multipleinput\examples\actions;
 
 use Yii;
 use yii\base\Action;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use yii\web\Response;
 use unclead\multipleinput\examples\models\ExampleModel;
 
