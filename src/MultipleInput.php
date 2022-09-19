@@ -180,12 +180,6 @@ class MultipleInput extends InputWidget
      * --icon library classes mapped for various controls
      */
     public $iconMap = [
-        self::ICONS_SOURCE_GLYPHICONS => [
-            'drag-handle'   => 'glyphicon glyphicon-menu-hamburger',
-            'remove'        => 'glyphicon glyphicon-remove',
-            'add'           => 'glyphicon glyphicon-plus',
-            'clone'         => 'glyphicon glyphicon-duplicate',
-        ],
         self::ICONS_SOURCE_FONTAWESOME => [
             'drag-handle'   => 'fa fa-bars',
             'remove'        => 'fa fa-times',
@@ -196,7 +190,7 @@ class MultipleInput extends InputWidget
     /**
      * @var string the name of default icon library
      */
-    public $iconSource = self::ICONS_SOURCE_GLYPHICONS;
+    public $iconSource = self::ICONS_SOURCE_FONTAWESOME;
 
     /**
      * @var string the CSS theme of the widget
